@@ -1,3 +1,8 @@
-body{
+header, footer{
+  margin : 20px;
   background:linear-gradient(#FD861D,#4579FC);
+}
+
+main{
+  margin : 20px;
 }
