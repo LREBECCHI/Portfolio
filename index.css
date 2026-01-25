@@ -1,8 +1,17 @@
-header, footer{
-  margin : 20px;
-  background:linear-gradient(#FD861D,#4579FC);
+html{
+    scroll-behavior: smooth;
+}
+
+nav{
+    background: linear-gradient(to right, #E69E6E, #81A6E6);
+    padding : 100px;
+}
+nav a{
+    background: lightblue;
+    padding: 15px;
+    border-radius: 20px;
 }
 
 main{
-  margin : 20px;
+  margin : 50px;
 }
