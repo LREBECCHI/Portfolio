@@ -1,17 +1,29 @@
 html{
     scroll-behavior: smooth;
 }
+body{
+    background: linear-gradient(to right, #436FE8, #A565C7);
+    font-family: 'Monoton', cursive;
+    margin: 0;
+}
+header{
+    padding: 10px 20px;
+}
 
 nav{
-    background: linear-gradient(to right, #E69E6E, #81A6E6);
-    padding : 100px;
+    display: flex;
 }
 nav a{
     background: lightblue;
     padding: 15px;
     border-radius: 20px;
+    margin-left: 10px;
+    text-decoration: none;
+    color: black;
 }
-
 main{
-  margin : 50px;
+    margin: 50px;
+}
+iframe{
+    border: 7px inset #436FE8;
 }
