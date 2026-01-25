@@ -2,28 +2,32 @@ html{
     scroll-behavior: smooth;
 }
 body{
-    background: linear-gradient(to right, #436FE8, #A565C7);
-    font-family: 'Monoton', cursive;
-    margin: 0;
-}
-header{
-    padding: 10px 20px;
+    font-family: 'Monoton';
 }
 
 nav{
+    padding : 50px;
+    background: linear-gradient(to right, #E88243, #A565C7);
     display: flex;
+    justify-content: space-between; 
+    align-items: center;   
 }
 nav a{
     background: lightblue;
-    padding: 15px;
+    padding: 15px;;
     border-radius: 20px;
-    margin-left: 10px;
     text-decoration: none;
     color: black;
+    float: right;
+    margin: 10px;
 }
+
 main{
-    margin: 50px;
+    padding : 50px;
 }
+
+
+
 iframe{
     border: 7px inset #436FE8;
 }
