@@ -6,7 +6,7 @@
 
 img, iframe, video{
     max-width: 100%;
-    height: auto;
+    min-height: 200px;
 }
 
 html{
@@ -15,7 +15,6 @@ html{
 body{
     font-family: 'Monoton';
     background: linear-gradient(white, #E88243);
-    margin : 0;
 }
 
 nav{
